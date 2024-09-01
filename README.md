@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a Node.js application that interacts with a MongoDB database. It provides a set of APIs for uploading a CSV containg linkes to images of Product with other Product Details which saves it to a DB, compresses the images qualitry by 50%.
+This Node.js application interacts with a MongoDB database and provides a set of APIs for handling CSV file uploads. The CSV files contain links to product images along with other product details. Upon uploading, the application saves the product data to the database and compresses the image quality by 50% and returns the compressed output image URLs in a separate API.
 
 ## Table of Contents
 
